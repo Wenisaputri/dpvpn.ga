@@ -1,0 +1,39 @@
+Free SSH 30 Hari
+
+KONTOL NGGA MAU MODAL
+
+Informasi SSH & OpenVPN
+------------------------------------------------
+IP/Host             : 157.245.56.51
+Domain              : noog.henzlink.me
+Username            : anjay
+Password            : bang
+OpenSSH             : 22
+Dropbear            : 443, 109, 143
+SSL/TLS             : 443, 445
+Port Squid          : 3128, 8080
+OHP SSH             : 8181
+OHP Dropbear        : 8282
+OHP OpenVPN         : 8383
+SSH Websocket SSL   : 443
+SSH Websocket HTTP  : 8880
+OVPN Websocket      : 2086
+OVPN Port TCP       : 1194
+OVPN Port UDP       : 2200
+OVPN Port SSL       : 990
+OVPN TCP            : http://157.245.56.51:89/tcp.ovpn
+OVPN UDP            : http://157.245.56.51:89/udp.ovpn
+OVPN SSL            : http://157.245.56.51:89/ssl.ovpn
+BadVpn              : 7100-7200-7300
+Created             : 2022-03-19
+Expired             : 2022-04-18
+----------------------
+Payload Websocket SSL/TLS
+----------------------
+GET wss://bug.com [protocol][crlf]Host: noog.henzlink.me[crlf]Upgrade: websocket[crlf][crlf]
+----------------------
+Payload Websocket HTTP
+----------------------
+GET / HTTP/1.1[crlf]Host: noog.henzlink.me[crlf]Upgrade: websocket[crlf][crlf]
+----------------------
+Script Mod By Hendra Wahyu
